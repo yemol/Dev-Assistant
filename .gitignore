@@ -1,0 +1,17 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+/bower_components/
+/node_modules/
+/WebSite/javascript/angular.min.js
+/WebSite/javascript/jquery.min.js
+/WebSite/javascript/bootstrap.min.js
+/WebSite/fonts/
+/WebSite/css/bootstrap-theme.min.css
+/WebSite/css/bootstrap.min.css
+/Auth_Server/lib/
+/WebSite/lib/
+/WebSite/javascript/jquery.min.map
+/Auth_Server/public/
+/Auth_Server/config.json
+/Auth_Server/serverConfig.json
