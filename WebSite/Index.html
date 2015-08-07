@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>test</title>
+    <meta charset="utf-8">
+    <script src="javascript/jquery.min.js" ></script>
+    <script src="javascript/global.js" ></script>
+    <script src="javascript/config.js" ></script>
+    <script src="javascript/OAuth.js" ></script>
+</head>
+<body>
+  <script>
+    $(function(){
+      var oAuth = OAuth(Config.OAuth_Server);
+      oAuth.ShowServer();
+      oAuth.Grant();
+    });
+  </script>
+  test
+</body>
+</html>
